@@ -12,29 +12,28 @@
 
 // Now you can use Swiper
 document.addEventListener('DOMContentLoaded', function () {
-	console.log("java started");
 	const swiper = new Swiper('.swiper', {
 
 		slidesPerView: 3,
 		spaceBetween: 24,
 		loop: true,
-		speed: 2000,
+		speed: 5000,
 		autoplay: {
-			delay: 0,
+			delay: 500,
 			reverseDirection: false,
 			disableOnInteraction: false,
 			pauseOnMouseEnter: true,
 		},
 	});
 
-	const swiper2 = new Swiper('.swiper-2', {
+	const swiper2 = new Swiper('.swiper-1', {
 
+		slidesPerView: 3,
 		spaceBetween: 24,
 		loop: true,
-		speed: 2500,
-		slidesPerView: 3,
+		speed: 4000,
 		autoplay: {
-			delay: 0,
+			delay: 400,
 			reverseDirection: true,
 			disableOnInteraction: false,
 			pauseOnMouseEnter: true,
@@ -42,14 +41,14 @@ document.addEventListener('DOMContentLoaded', function () {
 		loop: true,
 	});
 
-	const swiper3 = new Swiper('.swiper-3', {
+	const swiper3 = new Swiper('.swiper-2', {
 
 		slidesPerView: 3,
 		spaceBetween: 24,
 		loop: true,
-		speed: 3500,
+		speed: 7500,
 		autoplay: {
-			delay: 0,
+			delay: 350,
 			reverseDirection: false,
 			disableOnInteraction: false,
 			pauseOnMouseEnter: true,

@@ -36,13 +36,19 @@
 .hero {}
 
 .hero .container {
+	padding-top: 90px;
+}
+
+.hero_text_block {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 60px;
-	padding-top: 150px;
+	gap: 32px;
+	width: 1016px;
+	margin: 60px auto;
 }
+
 
 .logo {}
 
@@ -50,11 +56,33 @@
 
 .logo_side {}
 
-.hero_title {}
+.hero_title {
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 125%;
+	text-align: center;
+	color: var(--txt-primary);
+}
 
-.hero_text {}
+.hero_text {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 136%;
+	text-align: center;
+	color: var(--txt-secondary);
+	width: 800px;
+}
 
-.hero_btn {}
+.hero_btn {
+	display: block;
+	border-radius: 100px;
+	padding: 16px 24px;
+	width: 202px;
+	text-align: center;
+	color: var(--txt-primary);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+	background: linear-gradient(305deg, #ff536b 0%, rgba(255, 83, 107, 0.58) 100%);
+}
 
 .hero_text_remaining {}
 
@@ -68,14 +96,14 @@
 	overflow: hidden;
 }
 
-/*.carousel_list {
+.carousel_list {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	column-gap: 24px;
-	min-height: 280px;
-}*/
+	flex-wrap: wrap;
+	gap: 24px;
+}
 
 .carousel_row {}
 
@@ -85,20 +113,38 @@
 	justify-content: center;*/
 }
 
-.carousel_row_item {
-	display: block;
+.carousel_row_item {}
+
+.carousel_item_link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border-radius: 8px;
 	width: 394px;
 	height: 280px;
-	background: rgba(154, 154, 162, 0.4);
-	padding: 24px;
-	object-fit: cover;
+	overflow: hidden;
+	padding: 0;
 }
-
-.carousel_item_link {}
 
 .carousel_item_img {
 	display: block;
-	max-width: 100%;
+	/*width: 394px;
+	height: 280px;*/
 	object-fit: fill;
+	overflow: hidden;
+}
+
+.hero_link {
+	display: block;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 120%;
+	text-align: center;
+	color: var(--txt-primary);
+	border-radius: 100px;
+	padding: 16px 24px;
+	width: 219px;
+	height: 56px;
+	background: var(--main-bg-primary);
+	margin: 60px auto;
 }
