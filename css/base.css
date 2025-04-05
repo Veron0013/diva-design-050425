@@ -70,3 +70,8 @@ button {
 	padding: 0 104px;
 	margin: 0 auto;
 }
+
+.swiper {
+	width: 600px;
+	height: 300px;
+}

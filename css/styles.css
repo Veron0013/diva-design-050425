@@ -58,16 +58,46 @@
 
 .hero_text_remaining {}
 
-.carousel_block {}
+.carousel_block {
+	border-radius: 24px;
+	border: 1px solid salmon;
+	padding: 24px 0px 60px 0px;
+	width: 1232px;
+	height: 1088px;
+	background: rgba(172, 172, 172, 0.2), rgba(213, 213, 213, 0.3), radial-gradient(62.23% 62.23% at 60.43% 73.72%, #fffefe 0%, rgba(255, 255, 255, 0) 100%);
+	overflow: hidden;
+}
 
-.carousel_list {}
+/*.carousel_list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 280px;
+}
 
 .carousel_row {}
 
-.carousel_row_list {}
+.carousel_row_list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
-.carousel_row_item {}
+.carousel_row_item {
+	display: block;
+	border-radius: 8px;
+	width: 394px;
+	height: 280px;
+	background: rgba(154, 154, 162, 0.4);
+	padding: 24px;
+	object-fit: cover;
+}
 
 .carousel_item_link {}
 
-.carousel_item_img {}
+.carousel_item_img {
+	display: block;
+	max-width: 100%;
+	object-fit: fill;
+}*/
