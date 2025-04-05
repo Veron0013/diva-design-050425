@@ -71,7 +71,9 @@ button {
 	margin: 0 auto;
 }
 
-.swiper {
-	width: 600px;
-	height: 300px;
+.swiper,
+.swiper-1,
+.swiper-2 {
+	width: 1526px;
+	height: 280px;
 }
