@@ -38,10 +38,10 @@
 .hero .container {
 	padding-top: 90px;
 	background-image:
-		url('/images/Hero.svg'),
-		url('/images/Hero.png'),
+		url('../images/Hero.svg'),
+		url('./images/Hero.png'),
 		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
-		url('/images/Pattern.png');
+		url('../images/Pattern.png');
 	background-repeat: no-repeat, no-repeat, no-repeat, repeat;
 	background-size: contain, cover, cover, cover;
 }
