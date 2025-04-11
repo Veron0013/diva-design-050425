@@ -37,6 +37,13 @@
 
 .hero .container {
 	padding-top: 90px;
+	background-image:
+		url('/images/Hero.svg'),
+		url('/images/Hero.png'),
+		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+		url('/images/Pattern.png');
+	background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+	background-size: contain, cover, cover, cover;
 }
 
 .hero_text_block {
@@ -52,9 +59,12 @@
 
 .logo {}
 
-.logo_text {}
+.logo_img {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
 
-.logo_side {}
 
 .hero_title {
 	font-weight: 600;
